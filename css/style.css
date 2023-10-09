@@ -7,6 +7,14 @@
     box-sizing: border-box;
 }
 
+#logo {
+        font-size: 280%;
+        line-height: 75px;
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
 #menu {
     list-style-type: none;
     padding: 0;
@@ -142,7 +150,7 @@ nav {
 }
 
 .choice-options {
-    display: ;
+    display: flex;
     justify-content: center;
     gap: 10px;
     margin-top: 10px;
@@ -160,8 +168,6 @@ nav {
 .choice-button:hover {
     transform: scale(1.1);
 }
-
-#computer-choice-image {}
 
 #result-text {
     font-size: 16px;
@@ -214,32 +220,62 @@ button:hover {
 }
 
 @media screen and (min-width: 768px) {
-    nav {
-        display: inline;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-    }
-
-    #menu {
+     #menu {
         display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #menu>li {
+        display: block;
+        margin-bottom: 10px;
     }
 
-    #menu>li {
-        padding-left: 1rem;
+    nav {
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+    }
+     #nav-toggle {
+        display: block;
+        position: fixed;
+        z-index: 999;
+        top: 20px;
+        right: 20px;
     }
 
     .nav-toggle-label {
         display: none;
     }
-
-    #logo {
-        font-size: 280%;
-        line-height: 75px;
+    #game-area {
+        flex-direction: column;
     }
 
+    #player-choice,
+    #computer-choice,
+    #result {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .choice-options {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .choice-button {
+        width: 30%;
+        height: 30%;
+        margin-bottom: 10px;
+    }
+}
+    
+
     @@media screen and (max-width: 768px) {
+        width: 75%;
         h1 {
             font-family: 'Archivo Narrow', sans-serif;
             text-transform: uppercase;
@@ -279,7 +315,6 @@ button:hover {
 
         .choice-options {
             display: flex;
-            /* Corrected */
             justify-content: center;
             gap: 10px;
             margin-top: 10px;
