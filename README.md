@@ -81,13 +81,19 @@ For a preview link of the live version follow this link:
   ## Content
 <li> Most of the HTML and CSS code is from Code Institute and previous projects.
 <li> Some of the code in JavaScript is based on projects from Code Institute but mainly through function testing and other tutorials based on this type of game logic. 
-<li> The main parts of this JavaScript are from several sources for instance w3schools, GitHub, Stack Overflow, or other coding forums and tutorials. Most parts of the scripts had to be modified for the game function purpose.  
+<li> The main parts of this JavaScript are from several sources for instance w3schools, GitHub, Stack Overflow, or other coding forums and tutorials. Most parts of the scripts had to be modified for the game function purpose. 
+
+<li> https://github.com/RossHepburn/Rock-Paper-Scissors
+<li> https://github.com/JLChamberlain/RPSLS
+<li> https://brammitch.github.io/
 
 Game idea: ![Rock, Paper, Scissors, Lizard, Spock](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)  
 
   ### Media
-The game images were extracted from an illustrated game instruction here:
+The game images were extracted from an illustrated game instruction here: 
+https://brammitch.github.io/rpsls/img/RPSLS.png
 
-<li> Visual instruction image was found here:
+<li> Visual instruction image was found here: 
+https://www.instructables.com/How-to-Play-Rock-Paper-Scissors-Lizard-Spock/
 
 <li> Icons: Fontawesomes free icon list. 
