@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RPSLS - Rock, Paper, Scissors, Lizard or Spock - Game Center</title>
     <meta
       name="description"
-      content="Welcome to Game Center - Here you can play the Rock, Paper, Lizard and Spock Game">
+      content="Welcome to Game Center - Here you can play the Rock, Paper, Lizard, and Spock Game">
     <meta
       name="keywords"
       content="game, arcade, rpsls, rock, paper, scissor, lizard, spock">
@@ -17,6 +17,8 @@
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="assets/favicon/site.webmanifest">
+</head>
+<body>
     <header>
         <a href="index.html">
             <h1 id="logo">Game Center</h1>
@@ -32,83 +34,82 @@
             </ul>
         </nav>
     </header>
-    <body>
-        <div id="container">
-            <h1>Rock Paper Scissors Lizard Spock</h1>
-            <div id="game-area">
-                <div id="player-choice">
-                    <h2>Your choice:</h2>
-                    <div class="choice-options">
-                        <img class="choice-button" src="assets/images/rock.webp" alt="Rock" data-choice="rock">
-                        <img class="choice-button" src="assets/images/paper.webp" alt="Paper" data-choice="paper">
-                        <img class="choice-button" src="assets/images/scissors.webp" alt="Scissors" data-choice="scissors">
-                        <img class="choice-button" src="assets/images/lizard.webp" alt="Lizard" data-choice="lizard">
-                        <img class="choice-button" src="assets/images/spock.webp" alt="Spock" data-choice="spock">
-                    </div>
-                </div>
-                <div id="computer-choice">
-                    <h2>Computer's choice:</h2>
-                    <div class="choice-options">
-                        <img id="computer-choice-image" src="assets/images/computer.webp" alt="Computer">
-                    </div>
-                </div>
-                <div id="result">
-                    <h2>Result:</h2>
-                    <p id="result-text"></p>
+
+    <div id="container">
+        <h1>Rock Paper Scissors Lizard Spock</h1>
+        <div id="game-area">
+            <div id="player-choice">
+                <h2>Your choice:</h2>
+                <div class="choice-options">
+                    <img class="choice-button" src="assets/images/rock.webp" alt="Rock" data-choice="rock">
+                    <img class="choice-button" src="assets/images/paper.webp" alt="Paper" data-choice="paper">
+                    <img class="choice-button" src="assets/images/scissors.webp" alt="Scissors" data-choice="scissors">
+                    <img class="choice-button" src="assets/images/lizard.webp" alt="Lizard" data-choice="lizard">
+                    <img class="choice-button" src="assets/images/spock.webp" alt="Spock" data-choice="spock">
                 </div>
             </div>
+            <div id="computer-choice">
+                <h2>Computer's choice:</h2>
+                <div class="choice-options">
+                    <img id="computer-choice-image" src="assets/images/computer.webp" alt="Computer">
+                </div>
+            </div>
+            <div id="result">
+                <h2>Result:</h2>
+                <p id="result-text"></p>
+            </div>
         </div>
-            <div id="content-beyond-container"></div>
-                <div id="controls"></div>
-                        <div id="score-counter">Let's get started.</div><br>
-                    <button id="play-again"><i class="fa-regular fa-hand-spock fa-beat-fade"></i>  Play Again  <i class="fa-regular fa-hand-lizard fa-beat-fade"></i></button><br><br>
-                    <div id="timer">Time left: 10 seconds</div><br>
-                    <input type="checkbox" id="timer-checkbox">
-                    <label for="timer-checkbox">Enable Timer</label>
-                    <p><i><b>Notice:</b> If your toggle the checkbox on and off, the computer gets 1 extra win/point, every
-                            time...</i></p><br>
-<footer>
-    <br>
-    <ul id="socialmedia">
-        <li>
-            <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                aria-label="Visit our Facebook page (opens in a new tab)">
-                <i class="fa-brands fa-facebook fa-fade"></i>
-            </a>
-        </li>
-        <li>
-            <a href="https://www.twitter.com/" target="_blank" rel="noopener"
-                aria-label="Visit our Twitter page (opens in a new tab)">
-                <i class="fa-brands fa-twitter fa-beat"></i>
-            </a>
-        </li>
-        <li>
-            <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                aria-label="Visit our Instagram page (opens in a new tab)">
-                <i class="fa-brands fa-instagram fa-beat-fade"></i>
-            </a>
-        </li>
-        <li>
-            <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                aria-label="Visit our YouTube page (opens in a new tab)">
-                <i class="fa-brands fa-youtube fa-beat"></i>
-            </a>
-        </li>
-        <li>
-            <a href="https://www.tiktok.com/" target="_blank" rel="noopener"
-                aria-label="Visit our TikTok page (opens in a new tab)">
-                <i class="fa-brands fa-tiktok fa-fade"></i>
-            </a>
-        </li>
-    </ul>
-    <div class="copyright">
-        <br>
-        <p>&copy; Game Center - RPSLS - All rights reserved.</p>
-        <br>
     </div>
-</footer>
-<script src="https://kit.fontawesome.com/7dd2cb17e4.js" crossorigin="anonymous"></script>
-<script src="script.js"></script>
-    </body>
-    </html>
+    
+    <div id="content-beyond-container"></div>
+    <div id="controls">
+        <div id="score-counter">Let's get started.</div><br>
+        <button id="play-again">
+            <i class="fa-regular fa-hand-spock fa-beat-fade"></i>  Play Again  <i class="fa-regular fa-hand-lizard fa-beat-fade"></i>
+        </button><br><br>
+        <div id="timer">Time left: 10 seconds</div><br>
+        <input type="checkbox" id="timer-checkbox">
+        <label for="timer-checkbox">Enable Timer</label>
+        <p><i><b>Notice:</b> If you toggle the checkbox on and off, the computer gets 1 extra win/point every time...</i></p><br>
+    </div>
 
+    <footer>
+        <br>
+        <ul id="socialmedia">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)">
+                    <i class="fa-brands fa-facebook fa-fade"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)">
+                    <i class="fa-brands fa-twitter fa-beat"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)">
+                    <i class="fa-brands fa-instagram fa-beat-fade"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our YouTube page (opens in a new tab)">
+                    <i class="fa-brands fa-youtube fa-beat"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.tiktok.com/" target="_blank" rel="noopener" aria-label="Visit our TikTok page (opens in a new tab)">
+                    <i class="fa-brands fa-tiktok fa-fade"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="copyright">
+            <br>
+            <p>&copy; Game Center - RPSLS - All rights reserved.</p>
+            <br>
+        </div>
+    </footer>
+    
+    <script src="https://kit.fontawesome.com/7dd2cb17e4.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
