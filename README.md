@@ -83,6 +83,7 @@ For a preview link of the live version follow this link:
 <li> Some of the code in JavaScript is based on projects from Code Institute but mainly through function testing and other tutorials based on this type of game logic. 
 <li> The main parts of this JavaScript are from several sources for instance w3schools, GitHub, Stack Overflow, or other coding forums and tutorials in fragments. Most parts of the scripts had to be modified for the game function purpose or been translated to functions and further within the JavaScript language. 
 
+<li> https://brammitch.github.io/rpsls/
 <li> https://github.com/JanisKengis/codelex
 <li> https://github.com/RossHepburn/Rock-Paper-Scissors
 <li> https://github.com/JLChamberlain/RPSLS
