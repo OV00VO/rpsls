@@ -2,63 +2,91 @@
 # Rock Paper Scissor Lizard Spock Game!
 
 ## Link to project: https://ov00vo.github.io/rpsls/
-![Mockup of the project](url)
 
-### About the project
-The Rock Paper Scissor Lizard Spock Game is a game that with basic html, css and javascript to build a working game with game logics.
+## About the project
+<li> Rock Paper Scissors Lizard and Spock is a game known mostly from the TV series Big Bang Theory. In this computer simulation of the game, the user gets to play against the computer. 
+<li> The computer result is randomized and with the extra level of difficulty and game rules, it could be more challenging to guess knowing the computer is based on random results in comparison if human plays the game they could tend to be biased.
+<li> This could be a great way for the user to learn more about decision-making and at the same time have a simple game close at hand for relaxation, without too much of other distractions.
 
-### Features of the site
-The site contains a gamelogic for playing a developed version of Rock Paper Scissors. The added Lizard and Spock makes the game further advanced. To add a level to this a timer has been added to the game for the user to faster make a decision. Added to this timer is also a game function that gives the computer 1 extra point each time the enable timer box is checked. This is to prevent the user from adding unlimited time.
+PLACEHOLDER - Mockup - Responsiveness
 
-### Future development
-Future development could be
-<li> Adding a scoreboard.
-<li> Limited amount of tries before game over.
-<li> Adding a animation to the instructions or video.   
+## Features of the site
+### Existing Features
 
-<li> Existing feature: Responsive Navigation Bar for small to larger screens.
-![Navigation] (url)
+### Header
+<li> The header is responsive and shows the name of the site, rather than the name of the game itself. This is for further developing purposes and to make it easier <li> to apply more games in the future under a game site name. 
+<li> The logo and text are based on a soft tone of dark grey to stand out from the background while being easy to read.
+  
+![RPSLS_menu](https://github.com/OV00VO/rpsls/assets/136384344/7e3e67e2-6bf0-4634-a029-8f094abdba8c)
 
-<li> Existing feature: Game Area
-![Game Area] (url)
+## The Game Options
+<li> The game includes clear and easy-to-find instructions reachable from the menu as Visual Instructions.
+<li> The user can click on an image of either Rock, Paper, Scissors, Lizard, or Spock.  
+<li> Below the header, the user finds the name of the game and images of what choice to make illustrated by hands to play.
+<li> There is a timer option to increase the level of difficulty. When the timer box is checked the user has 10 seconds to make a choice or else the computer wins. If the user tries to unmark the checkbox the computer gets 1 point.
+<li> Extra timer rules apply out of the original game and therefore stated below the timer and not applied to the Visual Instructions.
 
-<li> Existing feature: Visual Instructions
-![Instruction] (url)
+![RPSLS_gamearea](https://github.com/OV00VO/rpsls/assets/136384344/51aefac7-a33c-4a6c-91b9-17257127061f)
 
-### List of possible of future development possibilities
-<li> Adding more levels of difficulty
+## The Game Results
+<li> When the user hovers over the hand on the gameboard to play the icon expands slightly. This is for user experience, to make the selection of the hand clear.
+<li> Then the JavaScript code randomly shows the computer choice.
+<li> The result is either Player Winner, Computer Winner, or Tie.
+<li> When starting the game a score table at the bottom of the page is shown.
 
-### Testing
-This site has been tested on performance, HTML, CSS and JavaScript. It is developed with UX/UI in mind. Overall good performance, but improvements in responsiveness could further be applied.
+![RPSLS_levels](https://github.com/OV00VO/rpsls/assets/136384344/0ebd2075-c451-4708-bb08-d2e09ae0ad3a)
 
-### Testing
-There are minor bugs in the system but ther is an overall good performance on the site.
+## The Footer
+<li> The footer section contains social media buttons and copyright information.
+<li> The game rules are not set in the footer, because of their complexity, instead, they are presented as in the menu as Visual Instruction.
 
-### The site har been tested with the following software:
-<li> High overall measurements both mobile and desktop, Lighthouse, Google Developer Tools (Page Speed Insights)
-<li> x errors with the official [W3C validator] (https://validator.w3.org/)
-<li> x errors with the official [Jigsaw validator] (https://jigsaw.w3.org/css-validator/)
-<li> x with the official [x. add: Java validator]
-![Lighthouse](x. add screenshot)
+![RPSLS_footer](https://github.com/OV00VO/rpsls/assets/136384344/0888476a-d97d-4ebe-ad3d-566bad3771a0)
 
-### Deployment
-x
+## Features Left to Implement
+<li> There is a level of increased difficulty in the game, but it could be more features that make the selection for the user more difficult.
+<li> A high score list of top ten results, with user input of their initials.
+<li> Visual elements in the game function to enhance the user experience.
 
-For further forking or evelopment of the game.
+## Testing
+<li> The game is tested in: Google Chrome, Microsoft Edge, Mozilla Firefox, and Apple Safari.
+<li> All of the game results follow the game rules and are displayed correctly.
+<li> I confirmed that the user interface and experience are easy to understand,
+<li> The site is tested in dev tools using Lighthouse and the fonts and colors are easy to read and accessible.
 
-### Credits
-For the HTML, CSS and JavaScript parts credits is given to Code Institue and the Love Maths project. There is also credit given for the game engine.
-Credits
-<li> HTML:
-<li> CSS:
-<li> JavaScript:
-<li> Other sources: W3C.org. 
+PLACEHOLDER - Mockup Lighthouse
+<li> I confirmed that this project works responsive on mobile, tablet and computer.
 
-### Content
-<li> Images on main page and game icon:
-<li> Images on Visual Instruction: 
+## Bugs
+
+  ### Solved Bugs
+<li> Several bugs have been issued within this project. Most of them regarding either CSS or JavaScript.
+<li> The game function sometimes was disabled when implementing new functions.
+<li> The timer function tended to rush without interaction.
+
+### Unfixed Bugs
+<li> Some functions could be improved further, but the game logic works in most cases.
+
+  ## Deployment
+The site is deployed on GitHub pages and therefore could be forked out to further development. To deploy the site the following steps has to be taken:
+<li> Navigate to the GitHub Repository and the Settings tab.
+<li> From the General, Code, and Automation, select Pages. Then from the source section, select the Main Branch.
+<li> When selected, a provided link appears on the website.
+
+For a preview link of the live version follow this link: 
+![RPSLS - Rock Paper Scissors, Lizard, and Spock](https://ov00vo.github.io/rpsls/)
+
+## Credits
+
+  ## Content
+<li> Most of the HTML and CSS code is from Code Institute and previous projects.
+<li> Some of the code in JavaScript is based on projects from Code Institute but mainly through function testing and other tutorials based on this type of game logic. 
+<li> The main parts of this JavaScript are from several sources for instance w3schools, GitHub, Stack Overflow, or other coding forums and tutorials. Most parts of the scripts had to be modified for the game function purpose.  
+
+Game idea: ![Rock, Paper, Scissors, Lizard, Spock](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)  
+
+  ### Media
+The game images were extracted from an illustrated game instruction here:
+
+<li> Visual instruction image was found here:
+
 <li> Icons: Fontawesomes free icon list. 
-<li> Game idea: <https://bigbangtheory.fandom.com/wiki/Rock>,_Paper,_Scissors,_Lizard,_Spock
-
-### Media
-The images and photos used on all the pages are from Unsplash and edited down to match the format.
