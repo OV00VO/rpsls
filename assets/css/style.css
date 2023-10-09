@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+body {
+    background-color: whitesmoke;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 2px;
+    color: darkslategrey;
+    font-family: 'Archivo Narrow', sans-serif;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Archivo Narrow', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: darkslategrey;
+}
+
+h2 {
+    font-family: 'Archivo Narrow', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: darkslategrey;
+}
+
+header {
+    background-position: center center;
+    background-size: cover;
+    background-color: white;
+    color: darkslategrey;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px darkslategrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.active {
+    border-bottom: 1px solid darkslategrey;
+}
+
+main {
+    flex: 1 0 auto;
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    margin-top: 79px;
+}
+
+nav {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px darkslategrey;
+    display: none;
+    top: 100%;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+#socialmedia {
+    text-align: justify;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#socialmedia i {
+    font-size: 160%;
+    padding: 5%;
+    color: darkslategrey;
+}
+
+.copyright {
+    text-align: center;
+    color: darkslategrey;
+}
+
+#container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 100px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+#game-area {
+    display: flex;
+    justify-content: space-around;
+}
+
+#player-choice,
+#computer-choice,
+#result {
+    width: 30%;
+    text-align: center;
+}
+
+.choice-options {
+    display: ;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.choice-button {
+    cursor: pointer;
+    width: 80px;
+    height: 80px;
+    border: 2px solid #333;
+    border-radius: 50%;
+    transition: transform 0.2s;
+}
+
+.choice-button:hover {
+    transform: scale(1.1);
+}
+
+#computer-choice-image {}
+
+#result-text {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#controls {
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: darkslategrey;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#player-choice,
+#computer-choice,
+#result {
+    width: 25%;
+    margin: 20px 0;
+}
+
+.choice-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice-images img {
+    width: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.choice-images img:hover {
+    transform: scale(1.2);
+}
+
+@media screen and (min-width: 768px) {
+    nav {
+        display: inline;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    @@media screen and (max-width: 768px) {
+        h1 {
+            font-family: 'Archivo Narrow', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            color: darkslategrey;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        h2 {
+            font-family: 'Archivo Narrow', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            color: darkslategrey;
+            font-size: 16px;
+        }
+
+        #content-beyond-container,
+        #result-text,
+        #controls,
+        #player-choice,
+        #computer-choice,
+        #result {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-color: whitesmoke;
+            padding: 20px 0;
+            width: 25%;
+            margin: 20px 0;
+            text-align: right;
+            margin-top: 20px;
+            font-size: 16px;
+            text-align: center;
+        }
+
+        .choice-options {
+            display: flex;
+            /* Corrected */
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        .player-images {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 10px;
+        }

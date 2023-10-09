@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RPSLS - Rock, Paper, Scissors, Lizard or Spock - Game Center</title>
+    <title>RPSLS - Instructions - Rock, Paper, Scissors, Lizard or Spock - Game Center</title>
     <meta
       name="description"
-      content="Welcome to Game Center - Here you can play the Rock, Paper, Lizard and Spock Game"
+      content="Welcome to Game Center - This is how you play the Rock, Paper, Lizard and Spock Game"
     />
     <meta
       name="keywords"
-      content="game, arcade, rpsls, rock, paper, scissor, lizard, spock"
+      content="game, arcade, rpsls, rock, paper, scissor, lizard, spock, instruction"
     />
 
     <link rel="stylesheet" href="assets/css/style.css">
@@ -29,8 +29,8 @@
         </label>
         <nav>
             <ul id="menu">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="instruction.html">Visual Instructions</a></li>
+                <li><a href="index.html" >Home</a></li>
+                <li><a href="instruction.html" class="active">Visual Instructions</a></li>
             </ul>
         </nav>
     </header>
@@ -38,44 +38,12 @@
   <body>
     <body>
         <div id="container">
-            <h1>Rock Paper Scissors Lizard Spock</h1>
-            <div id="game-area">
-                <div id="player-choice">
-                    <h2>Your choice:</h2>
-                    <div class="choice-options">
-                        <img class="choice-button" src="assets/images/rock.webp" alt="Rock" data-choice="rock">
-                        <img class="choice-button" src="assets/images/paper.webp" alt="Paper" data-choice="paper">
-                        <img class="choice-button" src="assets/images/scissors.webp" alt="Scissors" data-choice="scissors">
-                        <img class="choice-button" src="assets/images/lizard.webp" alt="Lizard" data-choice="lizard">
-                        <img class="choice-button" src="assets/images/spock.webp" alt="Spock" data-choice="spock">
-                    </div>
-                </div>
-                <div id="computer-choice">
-                    <h2>Computer's choice:</h2>
-                    <div class="choice-options">
-                        <img id="computer-choice-image" src="assets/images/computer.webp" alt="Computer">
-                    </div>
-                </div>
-                <div id="result">
-                    <h2>Result:</h2>
-                    <p id="result-text"></p>
-                </div>
+            <img id="computer-choice-image" src="assets/images/gametheory.webp" alt="Visual Instructions">
             </div>
-        </div>
-        <div>
-            <div id="content-beyond-container">
+            <footer>
                 <div id="controls">
-                    <h1>
-                        <div id="score-counter">Let's get started.</div>
-                    </h1><br>
-                    <button id="play-again"><i class="fa-regular fa-hand-spock fa-beat-fade"></i>  Play Again  <i class="fa-regular fa-hand-lizard fa-beat-fade"></i></button><br><br>
-                    <div id="timer">Time left: 10 seconds</div><br>
-                    <input type="checkbox" id="timer-checkbox">
-                    <label for="timer-checkbox">Enable Timer</label>
-                    <p><i><b>Notice:</b> If your toggle the checkbox on and off, the computer gets 1 extra win/point, every
-                            time...</i></p><br>
-<footer>
-    <br />
+                    <button id="close-overlay" onclick="window.location.href='index.html'"><i class="fa-regular fa-hand-spock fa-spin"></i> Play Game <i class="fa-regular fa-hand-lizard fa-spin fa-spin-reverse"></i></button>
+                </div>
     <ul id="socialmedia">
         <li>
             <a href="https://www.facebook.com/" target="_blank" rel="noopener"
