@@ -73,8 +73,7 @@ The site is deployed on GitHub pages and therefore could be forked out to furthe
 <li> From the General, Code, and Automation, select Pages. Then from the source section, select the Main Branch.
 <li> When selected, a provided link appears on the website.
 
-For a preview link of the live version follow this link: 
-![RPSLS - Rock Paper Scissors, Lizard, and Spock](https://ov00vo.github.io/rpsls/)
+For a preview link of the live version follow this link: https://ov00vo.github.io/rpsls/
 
 ## Credits
 
@@ -88,7 +87,7 @@ For a preview link of the live version follow this link:
 <li> https://github.com/RossHepburn/Rock-Paper-Scissors
 <li> https://github.com/JLChamberlain/RPSLS
 
-Game idea: ![Rock, Paper, Scissors, Lizard, Spock](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock)  
+Game idea: https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock
 
   ### Media
 The game images were extracted from an illustrated game instruction here: 
