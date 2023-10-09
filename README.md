@@ -58,6 +58,13 @@
 ouse
 <li> I confirmed that this project works responsive on mobile, tablet and computer.
 
+<li> 0 errors: w3C HTML validator: https://validator.w3.org/ (index.html)
+<li> 0 errors: w3C HTML validator: https://validator.w3.org/ (instructions.html)
+<li> 0 errors: w3C CSS https://jigsaw.w3.org/css-validator/
+<li> 0 errors: jsHint validator https://jshint.com/
+
+
+
 ## Bugs
 
   ### Solved Bugs
