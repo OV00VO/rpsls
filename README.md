@@ -54,7 +54,8 @@
 <li> I confirmed that the user interface and experience are easy to understand,
 <li> The site is tested in dev tools using Lighthouse and the fonts and colors are easy to read and accessible.
 
-PLACEHOLDER - Mockup Lighthouse
+![RSPLS_performance](https://github.com/OV00VO/rpsls/assets/136384344/345c3abe-5ad6-467a-b7b7-71f66dd57d43)
+ouse
 <li> I confirmed that this project works responsive on mobile, tablet and computer.
 
 ## Bugs
