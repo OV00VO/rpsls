@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+body {
+    background-color: whitesmoke;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 2px;
+    color: darkslategrey;
+    font-family: 'Archivo Narrow', sans-serif;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'Archivo Narrow', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: darkslategrey;
+}
+
+h2 {
+    font-family: 'Archivo Narrow', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: darkslategrey;
+}
+
+header {
+    background-position: center center;
+    background-size: cover;
+    background-color: white;
+    color: darkslategrey;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px darkslategrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
+main {
+    flex: 1 0 auto;
+    margin-top: 47px;
+    display: flex;
+    flex-direction: columnn;
+    margin-top: 79px;
+}
+
+nav {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px darkslategrey;
+    display: none;
+    top: 100%;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
