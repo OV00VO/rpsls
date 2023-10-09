@@ -8,7 +8,7 @@
 <li> The computer result is randomized and with the extra level of difficulty and game rules, it could be more challenging to guess knowing the computer is based on random results in comparison if human plays the game they could tend to be biased.
 <li> This could be a great way for the user to learn more about decision-making and at the same time have a simple game close at hand for relaxation, without too much of other distractions.
 
-PLACEHOLDER - Mockup - Responsiveness
+![RPSLS_mockup](https://github.com/OV00VO/rpsls/assets/136384344/ee9eafa7-e748-4efc-a085-804073fbe8b0)
 
 ## Features of the site
 
