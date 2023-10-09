@@ -11,9 +11,10 @@
 PLACEHOLDER - Mockup - Responsiveness
 
 ## Features of the site
+
 ### Existing Features
 
-### Header
+## Header
 <li> The header is responsive and shows the name of the site, rather than the name of the game itself. This is for further developing purposes and to make it easier <li> to apply more games in the future under a game site name. 
 <li> The logo and text are based on a soft tone of dark grey to stand out from the background while being easy to read.
   
