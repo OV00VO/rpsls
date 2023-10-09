@@ -1,3 +1,4 @@
+/* Credit: Code Institute, Love Math project */
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 * {
@@ -5,6 +6,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* #logo {
+        font-size: 280%;
+        line-height: 75px;
+        font-size: 280%;
+        margin: 0 0.5rem;
+    } */
 
 #menu {
     list-style-type: none;
@@ -141,7 +149,7 @@ nav {
 }
 
 .choice-options {
-    display: ;
+    display: flex;
     justify-content: center;
     gap: 10px;
     margin-top: 10px;
@@ -159,8 +167,6 @@ nav {
 .choice-button:hover {
     transform: scale(1.1);
 }
-
-#computer-choice-image {}
 
 #result-text {
     font-size: 16px;
@@ -213,34 +219,60 @@ button:hover {
 }
 
 @media screen and (min-width: 768px) {
-    nav {
-        display: inline;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
-    }
-
-    #menu {
+     #menu {
         display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #menu>li {
+        display: block;
+        margin-bottom: 10px;
     }
 
-    #menu>li {
-        padding-left: 1rem;
+    nav {
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+    }
+     #nav-toggle {
+        display: block;
+        position: fixed;
+        z-index: 999;
+        top: 20px;
+        right: 20px;
     }
 
     .nav-toggle-label {
         display: none;
     }
-
-    #logo {
-        font-size: 280%;
-        line-height: 75px;
-        margin: 0 0.5rem;
+    #game-area {
+        flex-direction: column;
     }
 
-    @@media screen and (max-width: 768px) {
-        h1 {
+    #player-choice,
+    #computer-choice,
+    #result {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .choice-options {
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .choice-button {
+        width: 30%;
+        height: 30%;
+        margin-bottom: 10px;
+    }
+    @media screen and (max-width: 768px) {
+        width: 75%;
+       /* h1 {
             font-family: 'Archivo Narrow', sans-serif;
             text-transform: uppercase;
             letter-spacing: 4px;
@@ -279,7 +311,6 @@ button:hover {
 
         .choice-options {
             display: flex;
-            /* Corrected */
             justify-content: center;
             gap: 10px;
             margin-top: 10px;
@@ -290,4 +321,4 @@ button:hover {
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(2, 1fr);
             gap: 10px;
-        }
+        } */
