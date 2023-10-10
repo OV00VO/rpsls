@@ -6,16 +6,16 @@
 ## About the project
 <li> Rock Paper Scissors Lizard and Spock is a game known mostly from the TV series Big Bang Theory. In this computer simulation of the game, the user gets to play against the computer. 
 <li> The computer result is randomized and with the extra level of difficulty and game rules, it could be more challenging to guess knowing the computer is based on random results in comparison if human plays the game they could tend to be biased.
-<li> This could be a great way for the user to learn more about decision-making and at the same time have a simple game close at hand for relaxation, without too much of other distractions.
-
-![RPSLS_mockup](https://github.com/OV00VO/rpsls/assets/136384344/ee9eafa7-e748-4efc-a085-804073fbe8b0)
+<li> This could be a great way for the user to learn more about decision-making and at the same time have a simple game close at hand for relaxation, without too much of other distractions for instance commercials or banners.
+  
+![RPSLS_mockup_final](https://github.com/OV00VO/rpsls/assets/136384344/27f7906a-7697-4f2b-a3c0-a4ffce6929d0)
 
 ## Features of the site
 
 ### Existing Features
 
 ## Header
-<li> The header is responsive and shows the name of the site, rather than the name of the game itself. This is for further developing purposes and to make it easier <li> to apply more games in the future under a game site name. 
+<li> The header is responsive and shows the name of the site, rather than the name of the game itself. This is for further developing purposes and to make it easier to apply more games in the future under a game site name. 
 <li> The logo and text are based on a soft tone of dark grey to stand out from the background while being easy to read.
   
 ![RPSLS_menu](https://github.com/OV00VO/rpsls/assets/136384344/7e3e67e2-6bf0-4634-a029-8f094abdba8c)
@@ -61,9 +61,7 @@ ouse
 <li> 0 errors: w3C HTML validator: https://validator.w3.org/ (index.html)
 <li> 0 errors: w3C HTML validator: https://validator.w3.org/ (instructions.html)
 <li> 0 errors: w3C CSS https://jigsaw.w3.org/css-validator/
-<li> 0 errors: jsHint validator https://jshint.com/
-
-
+<li> 0 errors: jsHint validator https://jshint.com/ (no errors found of significant value for the game to work)
 
 ## Bugs
 
@@ -85,7 +83,7 @@ For a preview link of the live version follow this link: https://ov00vo.github.i
 
 ## Credits
 
-  ## Content
+  ### Content
 <li> Most of the HTML and CSS code is from Code Institute and previous projects.
 <li> Some of the code in JavaScript is based on projects from Code Institute but mainly through function testing and other tutorials based on this type of game logic. 
 <li> The main parts of this JavaScript are from several sources for instance w3schools, GitHub, Stack Overflow, or other coding forums and tutorials in fragments. Most parts of the scripts had to be modified for the game function purpose or been translated to functions and further within the JavaScript language. 
