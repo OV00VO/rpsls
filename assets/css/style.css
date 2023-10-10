@@ -206,7 +206,7 @@ button:hover {
 }
 
 @media screen and (min-width: 768px) {
-    ##game-area {
+    #game-area {
         flex-wrap: nowrap;
     }
     #container {
