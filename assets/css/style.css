@@ -210,7 +210,6 @@ button:hover {
         flex-wrap: nowrap;
     }
     #container {
-        margin-top: 50px;
         max-width: 960px;
         margin: 0 auto;
     }
@@ -243,7 +242,6 @@ button:hover {
 
 @media screen and (max-width: 768px) {
     #container {
-        margin-top: 150px;
         max-width: 100%;
         margin: 0 auto;
     }
@@ -308,6 +306,7 @@ button:hover {
 }
 
 #container {
+    margin-top: 100px;
     text-align: center;
 }
 
